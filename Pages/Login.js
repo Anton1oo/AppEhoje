@@ -5,6 +5,8 @@ import {Formik} from 'formik'
 import { StyleSheet, Text, View,SafeAreaView,TouchableOpacity } from 'react-native'
 import {loginValidationSchema} from '../Validations/Form'
 
+
+const image= require('../assets/')
 export default function Login({navigation}) {
   return (
     <SafeAreaView style={styles.container}>
